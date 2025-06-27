@@ -1,0 +1,13 @@
+:root {
+      --bg: #0d1b1e;
+      --accent: #00ffe7;
+      --text: #d9d9d9;
+      --highlight: #64ffda;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
