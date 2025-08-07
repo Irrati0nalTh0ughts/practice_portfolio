@@ -1,0 +1,33 @@
+:root {
+  --bg: #0D0D0D;
+  --bg2: #2E2E2E;
+  --hdr: #1A1A1A;
+  --accent: #00ffe7;
+  --text: #B0B0B0;
+  --maintext: #EAEAEA;
+  --highlight: #64ffda;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+} */

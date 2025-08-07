@@ -1,0 +1,97 @@
+@import url(globals.css);
+
+/* NAVBAR */
+
+.navbar { /* Needs fixed in screen rework */
+    background-color: var(--bg2);
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    width: 100vw;
+    height: 80px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    width: 30vw;
+    height: inherit;
+    font-size: 42px;
+    color: var(--maintext);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-grow: 1;
+    height: inherit;
+    padding-right: 30px;
+}
+
+.menuBttn {
+    color: inherit;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+/* Introduction */
+
+bodyintro {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 678px;
+}
+
+.imagesCont {
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+    grid-template-columns: repeat(27, 50px);
+    grid-template-rows: repeat(10, 50px);
+}
+.progLangImgHCJ {
+    height: 150px;      width: 150px;
+    grid-column: 12/13; grid-row: 4/6;
+} .progLangImgC {
+    height: 150px;      width: 150px;
+    grid-column: 15/16; grid-row: 4/6;
+} .progLangImgGS {
+    height: 150px;      width: 150px;
+    grid-column: 18/19; grid-row: 4/6;
+} .progLangImgSQL {
+    height: 150px;      width: 150px;
+    grid-column: 21/22; grid-row: 4/6;
+} .myImage {
+    height: auto;       width: 350px;
+    grid-column: 4/10;  grid-row: 1/10;
+}
+.imagesCont h1 {
+    font-size: 68px;    font-weight: 900;
+    grid-column: 11/27; grid-row: 7;
+}
+.imagesCont h4 {
+    font-size: 26px;    font-weight: 400;
+    grid-column: 11/27; grid-row: 8;
+}
+
+.learnMoreCont {
+    position: relative;
+    top: px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    
+
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid var(--accent);
+    margin: 5px;
+}
