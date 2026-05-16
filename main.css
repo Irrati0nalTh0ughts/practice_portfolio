@@ -1,15 +1,4 @@
 @import url(globals.css);
 
-main {
-    height: auto;
-    width: 100vw;
-}
 
 /* MORE */
-
-.projectCont {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-}

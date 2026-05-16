@@ -5,52 +5,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="intro-style.css">
   <link rel="stylesheet" href="main.css">
   <title>Eldrich Espino | Portfolio</title>
 </head>
+
 <body>
 
-  <header>
-    <div class="navbar">
-      <div class="home">
-      My<b>Portfolio</b>
-      </div>
-      <nav class="menu">
-        <a href="#Home" class="menuBttn">Home</a>
-        <a href="#Home" class="menuBttn">About</a>
-        <a href="#Home" class="menuBttn">Contact</a>
-        <a href="#Home" class="menuBttn">Blogs</a>
-      </nav>
-    </div>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Primary navigation">
+      <a href="#top" class="brand" aria-label="Eldrich Espino portfolio home">
+        <span class="brand-mark">EE</span>
+        <span>Eldrich Espino</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <div class="introCont">
-    <section class="imagesCont">
-      <img class="progLangImgHCJ" src="asset\htmlcssjs-removebg-preview.png" alt="CSSJSHTML">
-      <img class="progLangImgC" src="asset\CsharpLogo.png" alt="C#">
-      <img class="progLangImgGS" src="asset\Godot_icon.png" alt="GdScript">
-      <img class="progLangImgSQL" src="asset\mysql.png" alt="MySql">
-      <img class="myImage" src="asset\FormalPhoto.png" alt="FormalPhoto">
-      <h1>Eldrich Evander Espino</h1>
-      <h4>Looking for 240 or 480 Internship Hours</h4>
-    </section>
-    <section class="learnMoreCont">
-      <div class="arrow">
+
+  <main id="main">
+    <section id="top" class="hero page-shell" aria-label="hero-title">
+      <div>
+        <p class="eyebrow"><span class="status-dot"></span>Software Engineering Intern Candidate</p>
+        <h1 id="hero-title">Eldrich Evander A.<span class="hero-title-accent">Espino</span></h1>
+        <p class="hero-copy">
+          BS Computer Science student focused on software engineering and systems development, with hands on development in Godot game development, MySQL-backed web systems, Python scripting, and hardware troubleshooting.
+        </p>
         
+        <dive class="hero-actions" aria-label="Portfolio actions">
+          <a href="#projects" class="button button-primary">View Projects</a>
+          <a href="#mailto:eldrich.espino3e@gmail.com" class="button button-secondary">Email me</a>
+          <a href="#https://github.com/irrati0nalthu0ghts" target="_blank" rel="noreferrer" class="button button-secondary">GitHub</a>
+        </dive>
       </div>
-      <p class="lrnmore">Learn more!</p>
+
+      <aside class="hero-panel" aria-label="Profile summary card">
+        <figure class="profile-frame">
+          <img src="asset\Eldrich Espino.jpg" alt="Portrait of Eldrich Evander A. Espino" />
+        </figure>
+        <div class="profile-note">
+          <strong>Dasmariñas City, Cavite</strong>
+          <p>Building practical projects across game development, web systems, embedded hardware, and software fundamentals.</p>
+        </div>
+      </aside>
     </section>
-  </div>
 
-  <main>
-    <div class="projectCont">
-      Hello WOrlds
-    </div>
+    
   </main>
-
-  <script src="script.js"></script>
 </body>
 
 </html>
