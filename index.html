@@ -8,9 +8,9 @@
     
     <!-- defer loads html and DOM first before script (=better performance) -->
     <script src="htmlFetchAPI.js" defer></script>
+    <link rel="stylesheet" href="CSS/hero.css">
     <link rel="stylesheet" href="CSS/globals.css">
     <link rel="stylesheet" href="CSS/sections.css">
-    <link rel="stylesheet" href="CSS/hero.css">
     <link rel="stylesheet" href="CSS/layout.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,8 +28,10 @@
     <header class="site-header">
       <nav class="nav-bar" aria-label="Primary navigation">
         <a href="#top" class="brand" aria-label="Eldrich Espino portfolio home">
-          <span class="brand-mark">E.</span>
-          <span>Espino</span>
+          <span>A
+            <span class="brand-dot">.</span>
+            Espino
+          </span>
         </a>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -37,7 +39,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a class="blog_link" href="Components/blog.html">Blog</a></li>
         </ul>
       </nav>
     </header>
@@ -63,13 +65,19 @@
       </section>
       
     </main>
+  
+    <footer class="site-footer">
+      <div class="copyright">
+        <p>© 2026 <span>Eldrich Evander A. Espino</span>. Built with HTML5, CSS3 and a bit of JS. Color scheme referred to by ClaudeAI.</p>
+
+        <ul class="footer_links-cont">
+          <li class="footer_links top"><a href="#top">Top</a></li>
+          <li class="footer_links email"><a href="#mailto:eldrich.espino3e@gmail.com">Email</a></li>
+          <li class="footer_links git"><a href="https://github.com/Irrati0nalTh0ughts">GitHub</a></li>
+        </ul>
+      </div>
+    </footer>
+
   </body>
-  
-  <footer class="site-footer">
-    <div class="page-shell">
-      <p>© 2026 Eldrich Evander A. Espino. Built with semantic HTML and responsive CSS. Supported by ChatGPT and Google AI Mode.</p>
-    </div>
-  </footer>
-  
   
   </html>
